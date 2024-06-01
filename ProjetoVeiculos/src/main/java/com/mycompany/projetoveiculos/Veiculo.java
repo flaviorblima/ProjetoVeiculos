@@ -70,8 +70,6 @@ public class Veiculo {
     public void entrada() {
         Scanner scanner = new Scanner(System.in);
         try {
-            System.out.print("Capacidade do Tanque: ");
-            this.capacidadeTanque = scanner.nextInt();
             System.out.print("Número de Passageiros: ");
             this.numeroPassageiros = scanner.nextInt();
             System.out.print("Preço: ");
@@ -82,3 +80,4 @@ public class Veiculo {
         }
     }
 }
+
